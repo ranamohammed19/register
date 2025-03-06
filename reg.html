@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+   <!-- Bootstrap CSS -->
+   <link
+   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+   rel="stylesheet"
+ />
+ <link rel="stylesheet" href="./reg.css">
+</head>
+<body>
+   
+        Navbar
+        <nav>
+          <ul>
+          
+          
+            <h3>Flat 50% Off On Grocery Shop.</h3>
+          
+            <li><a href="#home">Help?</a></li>
+            <li><a href="#about">Track Order</a></li>
+            <li class="language-dropdown">
+              <span>Language <i class="arrow-down"></i></span>
+              <ul class="language-list">
+                <li><a href="#en">English</a></li>
+                <li><a href="#ar">Arabic</a></li>
+                <li><a href="#fr">Français</a></li>
+                <li><a href="#es">Español</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">Currency</a></li>
+          </ul>
+        </nav>
+    
+        <!-- Search Section -->
+        <section class="search-section">
+          <div class="container d-flex align-items-center justify-content-between">
+          
+            <div class="logo">
+              <img
+                src="https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/logo/logo.png"
+                alt="BlueBerry"
+              />
+            </div>
+    
+            <!-- Category Dropdown -->
+            <div class="dropdown1">
+              <button
+                class="btn btn-light dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Vegetables
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruits</a></li>
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                <li><a class="dropdown-item" href="#">Cold Drinks</a></li>
+              </ul>
+            </div>
+    
+            <!-- Search Bar -->
+            <div class="search-bar flex-grow-1 mx-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search products..."
+              />
+            </div>
+    
+            <!-- Icons -->
+            <div class="icons d-flex align-items-center gap-12">
+              <svg
+                class="icoo"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-person"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"
+                />
+              </svg>
+              <strong class="accc">Account</strong>
+              <strong class="log">Login</strong>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+                />
+              </svg>
+              <strong class="items">3 items</strong>
+              <strong class="wish">Wishlist</strong>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-cart-dash"
+                viewBox="0 0 16 16"
+              >
+                <path d="M6.5 7a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1z" />
+                <path
+                  d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+                />
+              </svg>
+              <strong class="items4">4 items</strong>
+              <strong class="cart">Cart</strong>
+            </div>
+          </div>
+        </section>
+    
+        <section>
+          <div>
+            <svg
+              class="icon-sec"
+              viewBox="0 0 1024 1024"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M384 928H192a96 96 0 0 1-96-96V640a96 96 0 0 1 96-96h192a96 96 0 0 1 96 96v192a96 96 0 0 1-96 96zM192 608a32 32 0 0 0-32 32v192a32 32 0 0 0 32 32h192a32 32 0 0 0 32-32V640a32 32 0 0 0-32-32H192zM784 928H640a96 96 0 0 1-96-96V640a96 96 0 0 1 96-96h192a96 96 0 0 1 96 96v144a32 32 0 0 1-64 0V640a32 32 0 0 0-32-32H640a32 32 0 0 0-32 32v192a32 32 0 0 0 32 32h144a32 32 0 0 1 0 64zM384 480H192a96 96 0 0 1-96-96V192a96 96 0 0 1 96-96h192a96 96 0 0 1 96 96v192a96 96 0 0 1-96 96zM192 160a32 32 0 0 0-32 32v192a32 32 0 0 0 32 32h192a32 32 0 0 0 32-32V192a32 32 0 0 0-32-32H192zM832 480H640a96 96 0 0 1-96-96V192a96 96 0 0 1 96-96h192a96 96 0 0 1 96 96v192a96 96 0 0 1-96 96zM640 160a32 32 0 0 0-32 32v192a32 32 0 0 0 32 32h192a32 32 0 0 0 32-32V192a32 32 0 0 0-32-32H640z"
+              ></path>
+            </svg>
+          </div>
+          <div class="menu-home">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Offers</a></li>
+            </ul>
+        </div>
+        </section>  
+
+      <div class="container">
+        <h1>Register</h1>
+        <h3 id="h3">Best place to buy and sell digital products</h3>
+    
+        <form>
+
+            <div class="row">
+                <div class="col">
+                    <label>First Name*</label>
+            
+                  <input type="text" class="form-control" placeholder="Enter your first name" aria-label="First name">
+                </div>
+                <div class="col">
+                    <label>Last Name*</label>
+                  <input type="text" class="form-control" placeholder="Enter your last name" aria-label="Last name">
+                </div>
+              </div>
+            
+              <div class="row">
+                <div class="col">
+                    <label>Email*</label>
+                  <input type="email" class="form-control" placeholder="Enter your  email" aria-label="Email">
+                </div>
+                <div class="col">
+                    <label>Phone Number*</label>
+                  <input type="tel" class="form-control" placeholder="Enter your phone number" aria-label="Phone-Number">
+                </div>
+              </div>
+              <label>Adress*</label>
+              <input type="text" class="form-control, adress" placeholder="Enter your adress" aria-label="Adress">
+              <div class="row">
+                <div class="col">
+                    <label>country*</label>
+                    <select id="country"  aria-label="country">
+                        <option>---country---</option>
+                        <option>country1</option>
+                        <option>country2</option>
+                        <option>country3</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label>City</label>
+                    <select id="City"  aria-label="City">
+                        <option>---City---</option>
+                        <option>Egypt</option>
+                        <option>Saudia</option>
+                        <option>Bahreen</option>
+                    </select>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                    <label>Post code</label>
+                  <input type="text" class="form-control" placeholder="Post code" aria-label="Post code">
+                </div>
+                <div class="col">
+                    <label>Region state*</label>
+                    <select id="state"  aria-label="Region state">
+                        <option>Region state</option>
+                        <option>Region state1</option>
+                        <option>Region state2</option>
+                        <option>Region state3</option>
+                    </select>
+                </div>
+              </div>
+              <br>
+              
+  <button type="button" id="btn">Regieter</button>
+
+        </form>
+
+ <a href="./log.html" target="_blank" rel="noopener noreferrer">Log in</a>
+
+
+
+
+
+
+</body>
+</html>
