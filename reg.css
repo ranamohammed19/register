@@ -38,7 +38,9 @@ body {
   }
   
   
-  
+  #inputs{
+    border: 1px #000 solid;
+  }
    label {
     display: block;
     margin-bottom: 5px;
@@ -68,8 +70,8 @@ body {
 
   }
   input:focus{
-    background: rgb(210, 204, 204);
-    transform: scale(1.1);
+    transition: 0.5s;
+    border: 3px solid #0dcaf0;;
 }
   button {
     width: 100%;

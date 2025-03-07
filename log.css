@@ -1,41 +1,4 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
-    margin: 0;
-  }
-  nav {
-    background-color: #3d4750;
-    color: #fff;
-  
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 10px;
-  }
-  
-  nav ul {
-    display: flex;
-    margin: 0;
-    list-style: none;
-    align-items: center;
-    gap: 40px;
-    position: relative;
-    padding-left: 600px;
-    color: #d1d3d5;
-    font-size: 18px;
-  }
-  nav ul li {
-    color: #d1d3d5;
-   
-  }
-  
-   */
+
 
 
 
@@ -119,8 +82,9 @@
 
   }
   input:focus{
-    background: rgb(210, 204, 204);
-    transform: scale(1.1);
+      transition: 0.5s;
+      border:1px solid #000;
+  
 }
   button {
     width: 100%;
